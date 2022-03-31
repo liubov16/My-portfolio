@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!-- кодировки -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="freelancehunt" content="d7157d829f448d3">
+	<!-- шрифти + оптимизатор загрузки -->
+	<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap" rel="stylesheet">
+	<!-- стили -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- название сайта -->
+	<title>Liubov Talizina's portfolio</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<!-- шапка -->
+		<header class="header">
+			<div class="container">
+				<!-- верх шапки -->
+				<div class="header__top">
+					<!-- навигация -->
+					<nav class="header__nav">
+						<ul class="nav__list">
+							<li class="list__item">
+								<a class="nav__link" href="#about">About me</a>
+							</li>
+							<li class="list__item">
+								<a class="nav__link" href="#projects">Projects</a>
+							</li>
+							<li class="list__item">
+								<a class="nav__link" href="#contacts">Contacts</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- низ шапки -->
+				<div class="header__bottom">
+					<!-- вводный текст -->
+					<div class="header__intro">
+						<!-- заголовок -->
+						<h1 class="header__h1">Hello, I'm Liubov, <br> the Front-end developer</h1>
+						<!-- подтекст -->
+						<div class="header__text">
+							<p class="text__item">Учітесь, читайте, І чужому научайтесь, Й свого не цурайтесь.
+								<br><b>Тарас Шевченко</b> (Ukrainian writer)
+							</p>
+						</div>
+						<!-- кнопка быстрого действия -->
+						<button class="header__button"><a href="#popup" class="popup-link">Contact me</a></button>
+					</div>
+					<!-- мое фото -->
+					<div class="header__photo">
+						<div class="photo__frame"></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- про меня -->
+		<section id="about" class="about">
+			<div class="container">
+				<!-- заголовок -->
+				<h2 class="section__h2">About me</h2>
+				<div class="about__content">
+					<!-- текст про меня -->
+					<div class="about__text">
+						<p class="text__item">
+							<!-- description  -->
+							My name is Liubov. I live in Ukraine and have experience in Front-end
+							development for over 2 years. Strictly follow the requirements, meet the deadlines, and always in
+							touch. Would be happy to help you with your project, feel free to share your ideas and we will
+							discuss how we can collaborate to make your project successful. Also love sports, learning, trading
+							and hanging out
+						</p>
+					</div>
+					<!-- мои скиллы -->
+					<div class="about__skills">
+						<div class="skills__tech">
+							<!-- технологии -->
+							<h3 class="about__h3">Skills</h3>
+							<ul class="tech__list">
+								<li class="list__item -html">
+									<p class="tech__text">I'm good at semantic tags, work with Google Fonts and meta
+										tags.
+										Write code with BEM
+									</p>
+								</li>
+								<li class="list__item -css">
+									<p class="tech__text">I work with CSS, media, import, transition, animation and
+										adaptive layout</p>
+								</li>
+								<li class="list__item -js">
+									<p class="tech__text">I strongly use JS. Work with DOM and
+										async-await
+									</p>
+								</li>
+								<li class="list__item -sass">
+									<p class="tech__text">I print elegant and effective code with SCSS/SASS</p>
+								</li>
+								<li class="list__item -jq">
+									<p class="tech__text">Easily use jQuery to minify code and add some custom functionality
+									</p>
+								</li>
+								<li class="list__item -wp">
+									<p class="tech__text"> I have experience in PSD/Figma to WordPress development, so you will
+										be able to easily manage the content of your website.</p>
+								</li>
+							</ul>
+						</div>
+						<div class="skills__lang">
+							<h3 class="about__h3">Languages</h3>
+							<ul class="lang__list">
+								<li class="list__item -en">
+									<p class="lang__title">English (Conversational)</p>
+								</li>
+								<li class="list__item -ru">
+									<p class="lang__title">Русский (Native)</p>
+								</li>
+								<li class="list__item -ua">
+									<p class="lang__title">Українська (Native)</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- работы -->
+		<section id="projects" class="works">
+			<div class="container">
+				<!-- заголовок -->
+				<h2 class="section__h2">My projects</h2>
+
+				<!-- bootstrap -->
+				<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<h3 class="carousel__title">Quiz</h3>
+							<a class="carousel__link" href="https://liubov16.github.io/Quiz/" target="_blank"><img
+									src="img/works_quiz.png" class="d-block w-100" alt="..."></a>
+
+							<p class="carousel__subtitle">Here is a 7-page form-quiz on JavaScript</p>
+						</div>
+						<div class="carousel-item">
+							<h3 class="carousel__title">Bootstrap layout</h3>
+							<a class="carousel__link" href="https://liubov16.github.io/Bootstrap-layout/" target="_blank"><img
+									src="img/works__bs.png" class="d-block w-100" alt="..."></a>
+
+							<p class="carousel__subtitle">Elegant landing page for education platform on BS5</p>
+						</div>
+						<div class="carousel-item">
+							<h3 class="carousel__title">Food delivery landing page</h3>
+							<a class="carousel__link" href="https://liubov16.github.io/GoodFood/" target="_blank"><img
+									src="img/works__gf.png" class="d-block w-100" alt="..."></a>
+
+							<p class="carousel__subtitle">Adaptive and fast layout with jQuery</p>
+						</div>
+						<div class="carousel-item">
+							<h3 class="carousel__title">Future projects</h3>
+							<img src="img/tbc.png" class="d-block w-100" alt="...">
+							<p class="carousel__subtitle">Here may be your project</p>
+						</div>
+					</div>
+					<!-- переключатели -->
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+						data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+						data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- footer-контакты -->
+		<footer id="contacts" class="footer">
+			<div class="container">
+				<ul class="contacts__list">
+					<li class="list__item">
+						<a class="item__link" href="https://www.instagram.com/liubovtalizina/" target="_blank">
+							<img class="item__img" src="img/contacts_insta.png">
+							<p class="item__title">@liubovtalizina</p>
+						</a>
+					</li>
+					<li class="list__item">
+						<a class="item__link" href="tel:+380953217838">
+							<img class="item__img" src="img/contacts_phone.png">
+							<p class="item__title">+38 095 321 78 38(Ukraine)</p>
+						</a>
+					</li>
+					<li class="list__item">
+						<a class="item__link" href="mailto:freelance.liubov16@gmail.com" target="_blank">
+							<img class="item__img" src="img/contacts_mail.png">
+							<p class="item__title">freelance.liubov16@gmail.com</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+
+		<div id="popup" class="popup">
+			<div class="popup__body">
+				<div class="popup__content">
+					<div class="popup__title">Contact Me</div>
+					<div class="popup__text">
+						<div class="text__row">
+							<img class="popup__img" src="img/telegram.jpg" alt="telegram">
+							<a class="popup__link" href="tg://resolve?domain=toxatrader" target="_blank"> Telegram</a>
+						</div>
+						<div class="text__row">
+							<img class="popup__img" src="img/viber1.png" alt="viber">
+							<a class="popup__link" href="viber://chat?number=%2B380953217838" target="_blank"> Viber</a>
+						</div>
+						<div class="text__row">
+							<img class="popup__img" src="img/instagram1.jpg" alt="instagram">
+							<a class="popup__link" href="https://www.instagram.com/liubovtalizina/"
+								target="_blank">Instagram</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- скрипты -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
